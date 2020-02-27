@@ -91,6 +91,9 @@ dist
 # vuepress build output
 .vuepress/dist
 
+# CSS output
+public/css/style.css
+
 # Serverless directories
 .serverless/
 
@@ -102,3 +105,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# IDE
+.idea

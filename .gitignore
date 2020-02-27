@@ -92,7 +92,7 @@ dist
 .vuepress/dist
 
 # CSS output
-public/css/style.css
+public/css
 
 # Serverless directories
 .serverless/

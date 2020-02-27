@@ -7,4 +7,4 @@ Advanced CSS project from https://www.udemy.com/course/advanced-css-and-sass/
 Just practicing using CSS Flexbox.
 
 ## Status
-In progress, almost done.
+Project completed! :smiley:

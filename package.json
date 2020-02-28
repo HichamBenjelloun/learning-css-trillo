@@ -12,7 +12,7 @@
     "compress:css": "node-sass --output-style compressed public/css/style.prefix.css > public/css/style.css",
     "build:css": "npm-run-all compile:sass prefix:css compress:css",
     "clean:css": "rimraf public/css/style.*.css",
-    "predeploy": "npm run build:css",
+    "predeploy": "npm-run-all build:css clean:css",
     "deploy": "gh-pages -d public"
   },
   "author": "Hicham Benjelloun",
